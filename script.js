@@ -1,5 +1,5 @@
 const username = window.prompt("Please enter your display name.");
-const CLIENT_ID = '82irKemWz7hnRBST';
+const CLIENT_ID = 'ENTER YOUR OWN ID HERE USING THIS WEBSITE: https://www.scaledrone.com/';
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
